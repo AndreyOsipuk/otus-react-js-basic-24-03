@@ -16,7 +16,7 @@ export const Form: FC<Props> = (props) => {
   }
 
   return <form onSubmit={handleSubmit}>
-    <input type="text" onChange={handleChange} value={value} />
-    <button>Submit</button>
+    <input type="text" onChange={handleChange} value={value} data-testid="input"/>
+    <button>Submitt</button>
   </form>
 }

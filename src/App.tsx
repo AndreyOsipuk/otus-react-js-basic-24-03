@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <p>{count}</p>
-      <button onClick={handleClick}>click</button>
+      <button onClick={handleClick} data-testid="button">click</button>
       {/* <Form message="Hello World" /> */}
       <FormClass />
     </div>
