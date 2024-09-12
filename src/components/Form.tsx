@@ -1,4 +1,4 @@
-import { FC, useState } from 'react'
+import React, { FC, useState } from 'react'
 
 type Props = {
   message: string
@@ -17,6 +17,6 @@ export const Form: FC<Props> = (props) => {
 
   return <form onSubmit={handleSubmit}>
     <input type="text" onChange={handleChange} value={value} data-testid="input"/>
-    <button>Submitt</button>
+    <button>Submitt!</button>
   </form>
 }
